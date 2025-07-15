@@ -4,12 +4,12 @@ A Python script that analyzes Reddit users' posts and comments to generate detai
 
 ## Features
 
-- 🔍 **Reddit Data Scraping**: Fetches user's recent posts and comments using Reddit API
-- 🧠 **AI-Powered Analysis**: Uses OpenAI GPT-4 to generate detailed personality insights
-- 📊 **Comprehensive Profiles**: Includes demographics, interests, communication style, and behavioral patterns
-- 📝 **Evidence-Based**: Cites specific posts/comments that support each personality trait
-- 💾 **File Export**: Saves personas as formatted .txt files
-- 🔒 **Secure**: Uses environment variables for API credentials
+- 🔍 *Reddit Data Scraping*: Fetches user's recent posts and comments using Reddit API
+- 🧠 *AI-Powered Analysis*: Uses OpenAI GPT-4 to generate detailed personality insights
+- 📊 *Comprehensive Profiles*: Includes demographics, interests, communication style, and behavioral patterns
+- 📝 *Evidence-Based*: Cites specific posts/comments that support each personality trait
+- 💾 *File Export*: Saves personas as formatted .txt files
+- 🔒 *Secure*: Uses environment variables for API credentials
 
 ## Setup Instructions
 
@@ -33,10 +33,10 @@ A Python script that analyzes Reddit users' posts and comments to generate detai
 2. Click "Create App" or "Create Another App"
 3. Choose "script" as the app type
 4. Fill in the required fields:
-   - **Name**: Your app name (e.g., "Persona Generator")
-   - **Description**: Brief description
-   - **Redirect URI**: `http://localhost:8080` (required but not used)
-5. Note your **Client ID** (under the app name) and **Client Secret**
+   - *Name*: Your app name (e.g., "Persona Generator")
+   - *Description*: Brief description
+   - *Redirect URI*: `http://localhost:8080` (required but not used)
+5. Note your *Client ID* (under the app name) and *Client Secret*
 
 ### 4. OpenAI API Setup (Optional)
 
@@ -100,34 +100,34 @@ The script generates detailed persona files like this:
 REDDIT USER PERSONA ANALYSIS
 ==================================================
 
-**Name/Handle**: u/kojied
+*Name/Handle*: u/kojied
 
-**Demographics**: 
+*Demographics*: 
 - Age Range: 25-35 (inferred from tech interests and communication style)
 - Gender: Not specified
 - Location: Likely US-based (timezone patterns)
 
-**Primary Interests**:
+*Primary Interests*:
 - Technology and Programming
 - Gaming and Entertainment
 - Science and Learning
 
-**Communication Style**:
+*Communication Style*:
 - Helpful and informative
 - Technical but accessible
 - Engages in constructive discussions
 
-**Top Subreddits**:
+*Top Subreddits*:
 1. r/programming - 8 interactions
 2. r/gaming - 6 interactions
 3. r/askreddit - 4 interactions
 
-**Posting Behavior**:
+*Posting Behavior*:
 - Prefers commenting over posting
 - Provides detailed, thoughtful responses
 - Active in technical discussions
 
-**Standout Traits**:
+*Standout Traits*:
 - Problem Solver: Frequently helps others with technical issues
   [Evidence: Comment in r/programming - "You can solve this by..."]
 - Curious Learner: Asks thoughtful questions about new technologies
@@ -158,18 +158,18 @@ reddit-persona-generator/
 
 ### Common Issues
 
-1. **"PRAW not available"**
+1. *"PRAW not available"*
    - Install PRAW: `pip install praw`
 
-2. **"Reddit API credentials not found"**
+2. *"Reddit API credentials not found"*
    - Check your `.env` file has the correct credentials
    - Ensure `.env` is in the same directory as the script
 
-3. **"Reddit user not found"**
+3. *"Reddit user not found"*
    - Verify the username/URL is correct
    - User might have deleted their account or set it to private
 
-4. **"OpenAI API error"**
+4. *"OpenAI API error"*
    - Check your API key is valid
    - Ensure you have sufficient API credits
    - The script will fall back to basic analysis if OpenAI fails
@@ -183,7 +183,7 @@ Reddit API has rate limits. If you encounter rate limiting:
 
 ## Privacy and Ethics
 
-This tool only analyzes **publicly available** Reddit data. Please use responsibly:
+This tool only analyzes *publicly available* Reddit data. Please use responsibly:
 
 - Respect user privacy
 - Don't use for harassment or stalking
